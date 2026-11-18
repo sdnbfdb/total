@@ -34,15 +34,12 @@ pip-install-*/
 *.log
 *.tmp
 
-# ==================== 生成的大体积分析产物（需要时手动取消注释） ====================
-新闻/reports/
+# ==================== 不纳入版本管理的生成物 ====================
+# 新闻 reports/ 与 data/ 下的正式产物（events / vectors / knowledge_graph / articles 等）均已纳入。
+# 以下仅为历史备份与编辑器缓存，不需要入库。
 新闻/_docs_backup_*/
 新闻/.trae-html-share-packages/
-新闻/data/*.npz
 新闻/data/_*/
-新闻/data/events.json
-新闻/data/knowledge_graph.*
-新闻/data/vectors.*
 
 # ==================== 编辑器 / 系统文件 ====================
 .idea/
