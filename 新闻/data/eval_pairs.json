@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "p001",
+  "a": "法国爆发近年来最严重暴力骚乱",
+  "b": "法国失控了",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p002",
+  "a": "法国爆发近年来最严重暴力骚乱",
+  "b": "法国多地奢侈品门店被洗劫一空",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p003",
+  "a": "法国爆发近年来最严重暴力骚乱",
+  "b": "法国人开始在奢侈品店0元购",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p004",
+  "a": "土豆价格今年持续走高",
+  "b": "马铃薯价格再度攀升 多地货源紧张",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p005",
+  "a": "红薯价格大涨 农户扩种",
+  "b": "地瓜产地收购价创新高",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p006",
+  "a": "红富士苹果价格再度上涨",
+  "b": "苹果手机新机型发布销量火爆",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p007",
+  "a": "土地管理法修订草案公布",
+  "b": "红薯丰收农民增收",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p008",
+  "a": "土豆主产区迎来丰收",
+  "b": "地瓜干加工订单翻倍",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p009",
+  "a": "中国60岁以上人口超3.23亿",
+  "b": "成都大学生：2000元左右生活费是主流",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p010",
+  "a": "周末打虎！黄日波被查",
+  "b": "法国爆发近年来最严重暴力骚乱",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "seed"
+ },
+ {
+  "id": "p011",
+  "a": "商务部回应多个热点问题!_腾讯新闻",
+  "b": "早新闻 | 4连板热门股发布重要公告_腾讯新闻",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_de850d95|sim=0.549"
+ },
+ {
+  "id": "p012",
+  "a": "国际热点简报第21期_腾讯新闻",
+  "b": "早新闻 | 4连板热门股发布重要公告_腾讯新闻",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_de850d95|sim=0.574"
+ },
+ {
+  "id": "p013",
+  "a": "外交部：中方将于9月25日在纽约联合国总部举行全球发展倡议5周年高级别对话会",
+  "b": "外交部介绍访美安排",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260903_8ed05d25|sim=0.584"
+ },
+ {
+  "id": "p014",
+  "a": "习近平将对美国进行国事访问",
+  "b": "外交部：中方将于9月25日在纽约联合国总部举行全球发展倡议5周年高级别对话会",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260903_8ed05d25|sim=0.592"
+ },
+ {
+  "id": "p015",
+  "a": "汇丰廖宜建：中国的人工智能产业将为全球企业及投资者创造增长新机遇",
+  "b": "北京6G空天地一体实验室正式发布",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_a8979516|sim=0.343"
+ },
+ {
+  "id": "p016",
+  "a": "华为云CEO周跃峰：人工智能正全面重构行业生态",
+  "b": "北京6G空天地一体实验室正式发布",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_a8979516|sim=0.428"
+ },
+ {
+  "id": "p017",
+  "a": "消息称富士能 XF400mm f/4.5 镜头今日发布",
+  "b": "419 元松典薄氪 BK05 超薄相机发售：11.8mm 厚 84g 重，4800 万像素 +4K 录像",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_8b6eb044|sim=0.541"
+ },
+ {
+  "id": "p018",
+  "a": "消息称适马将发布 20-60mm f/2.8-4.0 全画幅相机变焦镜头",
+  "b": "419 元松典薄氪 BK05 超薄相机发售：11.8mm 厚 84g 重，4800 万像素 +4K 录像",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_8b6eb044|sim=0.541"
+ },
+ {
+  "id": "p019",
+  "a": "农林牧渔产业链持续走高 天鹅股份直线涨停",
+  "b": "欧洲主要股指开盘集体下跌",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_68185496|sim=0.472"
+ },
+ {
+  "id": "p020",
+  "a": "明日五周年！北交所部分个股大涨",
+  "b": "欧洲主要股指开盘集体下跌",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_68185496|sim=0.513"
+ },
+ {
+  "id": "p021",
+  "a": "地平线机器人 2026 年上半年归母净利润 37.84 亿元，同比扭亏为盈",
+  "b": "洛图科技：2026 年上半年中国笔记本电脑线上全渠道均价 7120 元同比上涨 8.2%，销量同比下降 12.1%",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_c0754dc9|sim=0.520"
+ },
+ {
+  "id": "p022",
+  "a": "莲花集团 2026 上半年营收 2.68 亿美元同比增长 23%，净亏损 1.51 亿美元",
+  "b": "洛图科技：2026 年上半年中国笔记本电脑线上全渠道均价 7120 元同比上涨 8.2%，销量同比下降 12.1%",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_c0754dc9|sim=0.561"
+ },
+ {
+  "id": "p023",
+  "a": "消息称三星电子将为 Galaxy A 系列智能手机电池植入安全识别芯片",
+  "b": "进口 OLED 电视零部件涉嫌少缴关税，印度对三星、LG 展开调查",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260914_a1573f73|sim=0.475"
+ },
+ {
+  "id": "p024",
+  "a": "消息称三星 SDI 美国分支 Synergy Cells 优先生产 LFP 储能电池，2028H2 投产",
+  "b": "进口 OLED 电视零部件涉嫌少缴关税，印度对三星、LG 展开调查",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260914_a1573f73|sim=0.508"
+ },
+ {
+  "id": "p025",
+  "a": "SK海力士CEO最新预测：存储芯片短缺将持续到2030年 需求见顶后的下行周期与以往不一样",
+  "b": "SK海力士旗舰店关店跑路",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_562e1ed8|sim=0.484"
+ },
+ {
+  "id": "p026",
+  "a": "和海力士同源、给三星供货：长电科技韩国工厂的前世今生",
+  "b": "SK海力士旗舰店关店跑路",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_562e1ed8|sim=0.509"
+ },
+ {
+  "id": "p027",
+  "a": "华为Pura X View深度体验",
+  "b": "AOC AG326UZD (柔光版) 显示器发售：UHD 240Hz QD-OLED，到手价 6499 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_1408c9be|sim=0.532"
+ },
+ {
+  "id": "p028",
+  "a": "华为 Watch GT 7 Pro 智能手表今日开售：21 天续航，2688 元",
+  "b": "AOC AG326UZD (柔光版) 显示器发售：UHD 240Hz QD-OLED，到手价 6499 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_1408c9be|sim=0.563"
+ },
+ {
+  "id": "p029",
+  "a": "Faker 冠军同款：赛睿寒冰游戏豆 Arctis GameBuds 游戏耳机新增黄绿双色，国行首发 1299 元",
+  "b": "华为 FreeBuds Neo 耳机渲染图曝光：短柄设计，满电续航最长 40 小时",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_4e5b3218|sim=0.570"
+ },
+ {
+  "id": "p030",
+  "a": "Dbrand 为苹果 AirPods Pro 3 入耳式 TWS 耳机推出 Tank 保护壳",
+  "b": "Faker 冠军同款：赛睿寒冰游戏豆 Arctis GameBuds 游戏耳机新增黄绿双色，国行首发 1299 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_4e5b3218|sim=0.586"
+ },
+ {
+  "id": "p031",
+  "a": "中方：尼泊尔一侧失联中国公民近百人",
+  "b": "尼泊尔山洪幸存者讲述恐怖瞬间",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_05baaf4c|sim=0.535"
+ },
+ {
+  "id": "p032",
+  "a": "尼泊尔山洪幸存者讲述恐怖瞬间",
+  "b": "尼泊尔一侧失联中国公民近百人",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_05baaf4c|sim=0.564"
+ },
+ {
+  "id": "p033",
+  "a": "翼龙无人机传回泥石流灾区高清画面",
+  "b": "西藏泥石流已造成3人遇难",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_6cbbc534|sim=0.535"
+ },
+ {
+  "id": "p034",
+  "a": "翼龙无人机传回泥石流灾区高清画面",
+  "b": "西藏吉隆泥石流",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_6cbbc534|sim=0.544"
+ },
+ {
+  "id": "p035",
+  "a": "网易云音乐鸿蒙尝鲜内测版 App 获 9.5.84 升级，新增支持本地歌曲导入能力",
+  "b": "配苹果不配鸿蒙,网易UU挨喷",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_dec6a785|sim=0.596"
+ },
+ {
+  "id": "p036",
+  "a": "网易云音乐鸿蒙尝鲜内测版 App 获 9.5.84 升级，新增支持本地歌曲导入能力",
+  "b": "配苹果不配鸿蒙,网易UU挨喷",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_dec6a785|sim=0.596"
+ },
+ {
+  "id": "p037",
+  "a": "Mac遭OpenAI扫货，但苹果与英伟达并非零和博弈",
+  "b": "新 Mac mini 首发实测：我的第一台「多 Agent」电脑",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_243eb952|sim=0.436"
+ },
+ {
+  "id": "p038",
+  "a": "Mac遭OpenAI扫货，但苹果与英伟达并非零和博弈",
+  "b": "苹果新款Mac mini、Mac Studio正式发售：涨价后6999元起售",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_243eb952|sim=0.516"
+ },
+ {
+  "id": "p039",
+  "a": "工信部：截至 7 月末 5G 基站总数达 515.4 万个，5G 移动电话用户占比超七成",
+  "b": "中国信通院牵头的大模型平台系列行业标准发布",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_5ad7bbcf|sim=0.450"
+ },
+ {
+  "id": "p040",
+  "a": "Linux 7.3-rc1 发布，代码总行数达 4098 万行",
+  "b": "中国信通院牵头的大模型平台系列行业标准发布",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_5ad7bbcf|sim=0.483"
+ },
+ {
+  "id": "p041",
+  "a": "傲拓科技科创板IPO定于9月7日上会",
+  "b": "联想带来高通版 ThinkBook 14 Gen 9 笔电：X2 Plus + 低色域屏",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_554430be|sim=0.416"
+ },
+ {
+  "id": "p042",
+  "a": "傲拓科技科创板IPO定于9月7日上会",
+  "b": "联想 ThinkBook 14x Gen 2 发布：搭载英特尔酷睿 7 处理器，仅重 990g",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_554430be|sim=0.450"
+ },
+ {
+  "id": "p043",
+  "a": "尔英推出基于英特尔酷睿 i7-13798HRE / i5-13598HRE 处理器的 MoDT 主板",
+  "b": "51,999 元！铭凡 MS-S1 MAX-P495 迷你 AI 工作站发售",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260926_d91108a4|sim=0.497"
+ },
+ {
+  "id": "p044",
+  "a": "铭瑄展示 MCIO 迷你工作站方案与多款迷你主机新品",
+  "b": "WIKO Hi MateBook 14 酷睿版发布：酷睿 Ultra 5 325 处理器、24GB 内存 + 1TB 硬盘 8199 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260926_d91108a4|sim=0.517"
+ },
+ {
+  "id": "p045",
+  "a": "最新热点新闻频道_今日头条新闻资讯-荔枝网新闻",
+  "b": "最新热点新闻频道_今日头条新闻资讯-荔枝网新闻",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_ebd41e7f|sim=1.000"
+ },
+ {
+  "id": "p046",
+  "a": "最新热点新闻频道_今日头条新闻资讯-荔枝网新闻",
+  "b": "最新热点新闻频道_今日头条新闻资讯-荔枝网新闻",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_ebd41e7f|sim=1.000"
+ },
+ {
+  "id": "p047",
+  "a": "部长回应全美航班停飞：事件与微软无关、没有发生网络攻击，只是路由器太旧扛不住流量数据过载",
+  "b": "911后第二次全美停飞",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261114_caa52bf5|sim=0.579"
+ },
+ {
+  "id": "p048",
+  "a": "部长回应全美航班停飞：事件与微软无关、没有发生网络攻击，只是路由器太旧扛不住流量数据过载",
+  "b": "美国全国性地面停飞令已解除",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261114_caa52bf5|sim=0.611"
+ },
+ {
+  "id": "p049",
+  "a": "因 FSD 超速收到罚单，博主要求特斯拉承担责任",
+  "b": "密封关节设计，特斯拉 App 意外泄露第三代 Optimus 人形机器人",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260903_e74078da|sim=0.522"
+ },
+ {
+  "id": "p050",
+  "a": "特斯拉就 2023 年 Autopilot 致死诉讼达成和解，避免陪审团审判",
+  "b": "新一代 Roadster 发布在即，特斯拉可伸缩主动尾翼专利曝光",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260903_e74078da|sim=0.538"
+ },
+ {
+  "id": "p051",
+  "a": "中国人的潮流初恋回来了",
+  "b": "中国外贸加速“向绿”给世界带来什么",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260904_69e4a40d|sim=0.414"
+ },
+ {
+  "id": "p052",
+  "a": "中国外贸加速“向绿”给世界带来什么",
+  "b": "多地街道闪耀“中国红”",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260904_69e4a40d|sim=0.452"
+ },
+ {
+  "id": "p053",
+  "a": "369回国首播押宝左手夺冠",
+  "b": "Bin放话GEN不如T1",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261108_b73078c7|sim=0.390"
+ },
+ {
+  "id": "p054",
+  "a": "Faker放话BLG将遗憾止步四强",
+  "b": "369回国首播押宝左手夺冠",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261108_b73078c7|sim=0.457"
+ },
+ {
+  "id": "p055",
+  "a": "用户买RTX 5080游戏本到货变5090",
+  "b": "零刻推出 AMD 锐龙 3 7330U 款 EQR5 迷你主机，0 + 0 配置 1295 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_b5a4dac6|sim=0.562"
+ },
+ {
+  "id": "p056",
+  "a": "用户买RTX 5080游戏本到货变5090",
+  "b": "联想 2026 款扬天 V14 笔记本新增“锐龙 5 40U + 8G + 512G”版本，4799 元",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_b5a4dac6|sim=0.628"
+ },
+ {
+  "id": "p057",
+  "a": "走出奥德赛时期：苹果“换帅”给中国企业的5点启示",
+  "b": "库克最后一封苹果CEO内部信曝光",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_e4634bc7|sim=0.462"
+ },
+ {
+  "id": "p058",
+  "a": "苹果资深高管菲尔·席勒将卸任App Store和产品发布会负责人",
+  "b": "库克最后一封苹果CEO内部信曝光",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260831_e4634bc7|sim=0.516"
+ },
+ {
+  "id": "p059",
+  "a": "特朗普在白宫会见炼油商高管，要求扩大汽柴油产能以压低泵价",
+  "b": "美巨头呼吁AI刹车 特朗普先想到中国",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260902_1cfd5544|sim=0.517"
+ },
+ {
+  "id": "p060",
+  "a": "特朗普又将创造历史？白宫据悉考虑用《国防生产法》扩大炼油能力",
+  "b": "美巨头呼吁AI刹车 特朗普先想到中国",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260902_1cfd5544|sim=0.566"
+ },
+ {
+  "id": "p061",
+  "a": "首次曝光，OpenAI新一代旗舰Astra换上“循环深度”推理架构：用计算深度换参数规模",
+  "b": "Meta发最强模型打响价格战，小扎对谷歌贴脸开大，北大校友立大功",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_efee97f2|sim=0.438"
+ },
+ {
+  "id": "p062",
+  "a": "OPPO 发布新一代 ProXDR 技术：单帧动态范围高至 17EV、全尺寸 4K HDR 视频",
+  "b": "Meta发最强模型打响价格战，小扎对谷歌贴脸开大，北大校友立大功",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_efee97f2|sim=0.486"
+ },
+ {
+  "id": "p063",
+  "a": "郑钦文能否凭借美网重返巅峰",
+  "b": "周杰伦昆凌被郑钦文燃到了",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_feaa332a|sim=0.557"
+ },
+ {
+  "id": "p064",
+  "a": "郑钦文终结柳托娃9连胜 对手被打哭",
+  "b": "周杰伦昆凌被郑钦文燃到了",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_feaa332a|sim=0.557"
+ },
+ {
+  "id": "p065",
+  "a": "《GTA 6》游戏健身房首曝：先办卡，锻炼可逐步解锁更高重量",
+  "b": "不够看!GTA6加长实机公开",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_dffcd405|sim=0.450"
+ },
+ {
+  "id": "p066",
+  "a": "《GTA 6》游戏健身房首曝：先办卡，锻炼可逐步解锁更高重量",
+  "b": "OPPO ColorOS 17 采用全局浮岛式导航设计，覆盖几乎所有内置应用",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_dffcd405|sim=0.467"
+ },
+ {
+  "id": "p067",
+  "a": "中网大捷！郑钦文 2-0 拿下斯维托丽娜，狂揽 222 万重夺网坛一姐",
+  "b": "萨巴伦卡说郑钦文重回巅峰水准",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261008_8ac24a62|sim=0.546"
+ },
+ {
+  "id": "p068",
+  "a": "“Queen Wen”郑钦文生日快乐",
+  "b": "中网大捷！郑钦文 2-0 拿下斯维托丽娜，狂揽 222 万重夺网坛一姐",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20261008_8ac24a62|sim=0.548"
+ },
+ {
+  "id": "p069",
+  "a": "樊振东听谢霆锋讲炸鱼技巧",
+  "b": "乒坛大爆冷！日本两大主力0-3惨败，单局仅得2分输俄罗斯选手",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_071e8801|sim=0.329"
+ },
+ {
+  "id": "p070",
+  "a": "“樊振东效应”在德国持续扩大",
+  "b": "乒坛大爆冷！日本两大主力0-3惨败，单局仅得2分输俄罗斯选手",
+  "prelabel": "同事件",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "intra|evt_20260828_071e8801|sim=0.377"
+ },
+ {
+  "id": "p071",
+  "a": "商务部回应多个热点问题!_腾讯新闻",
+  "b": "图说 | 国台办新闻发布会回应两岸热点话题_腾讯新闻",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.907"
+ },
+ {
+  "id": "p072",
+  "a": "“我们的共同期待”中美关系交流会在纽约举行",
+  "b": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.876"
+ },
+ {
+  "id": "p073",
+  "a": "华为云CEO周跃峰：人工智能正全面重构行业生态",
+  "b": "“中国游”带火这门“新生意”",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.884"
+ },
+ {
+  "id": "p074",
+  "a": "消息称适马将发布 20-60mm f/2.8-4.0 全画幅相机变焦镜头",
+  "b": "索尼 Creators' App 新增多元创意外观滤镜配方、相机云直传功能",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.913"
+ },
+ {
+  "id": "p075",
+  "a": "农林牧渔产业链持续走高 天鹅股份直线涨停",
+  "b": "和黄医药再度牵手GSK 港股通创新药ETF易方达（159316）单日成交放量逾6亿",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.932"
+ },
+ {
+  "id": "p076",
+  "a": "莲花集团 2026 上半年营收 2.68 亿美元同比增长 23%，净亏损 1.51 亿美元",
+  "b": "三星生物制药拟筹资22亿美元用于PolyPeptide收购交易",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.9"
+ },
+ {
+  "id": "p077",
+  "a": "首发2K 165Hz屏！三星显示首度为单一品牌开放总部，iQOO16三大首发技术登场",
+  "b": "和海力士同源、给三星供货：长电科技韩国工厂的前世今生",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.903"
+ },
+ {
+  "id": "p078",
+  "a": "和海力士同源、给三星供货：长电科技韩国工厂的前世今生",
+  "b": "中国芯片设备，静待一个大消息",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.926"
+ },
+ {
+  "id": "p079",
+  "a": "vivo X500 Pro Max 手机官宣全球首发京东方 Q11 2K 蔡司大师色彩屏：6.85 英寸，色彩均一性提升 43%",
+  "b": "傲拓科技科创板IPO定于9月7日上会",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.955"
+ },
+ {
+  "id": "p080",
+  "a": "雷蛇幻彩基座 V3 头戴式耳机支架发布：支持无缝耳机检测、7.1 环绕立体声，699 元",
+  "b": "Bose 推出 QuietComfort Ultra II 汤姆 · 布朗特别版降噪耳机，950 美元",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.964"
+ },
+ {
+  "id": "p081",
+  "a": "中方：尼泊尔一侧失联中国公民近百人",
+  "b": "尼泊尔2男子偷走遇难者金饰被捕",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.768"
+ },
+ {
+  "id": "p082",
+  "a": "西藏泥石流灾害核心区画面曝光",
+  "b": "福建一地暴雨内涝轿车被冲走",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.754"
+ },
+ {
+  "id": "p083",
+  "a": "网易云音乐 9.5.80 版本上线鸿蒙尝鲜，界面和安卓版有所不同",
+  "b": "鸿蒙智行享界 G9 顶帐官宣进店，华为智选车产品总监称最初设计就考虑了原生电动顶帐",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.933"
+ },
+ {
+  "id": "p084",
+  "a": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+  "b": "今天，库克最后一天当CEO，苹果正式换帅",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.964"
+ },
+ {
+  "id": "p085",
+  "a": "工信部：截至 7 月末 5G 基站总数达 515.4 万个，5G 移动电话用户占比超七成",
+  "b": "华为云CEO周跃峰：人工智能正全面重构行业生态",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.861"
+ },
+ {
+  "id": "p086",
+  "a": "傲拓科技科创板IPO定于9月7日上会",
+  "b": "vivo X500 Pro Max 手机官宣全球首发京东方 Q11 2K 蔡司大师色彩屏：6.85 英寸，色彩均一性提升 43%",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.955"
+ },
+ {
+  "id": "p087",
+  "a": "尔英推出基于英特尔酷睿 i7-13798HRE / i5-13598HRE 处理器的 MoDT 主板",
+  "b": "用户买RTX 5080游戏本到货变5090",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.974"
+ },
+ {
+  "id": "p088",
+  "a": "最新热点新闻频道_今日头条新闻资讯-荔枝网新闻",
+  "b": "商务部回应多个热点问题!_腾讯新闻",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.8"
+ },
+ {
+  "id": "p089",
+  "a": "FAA 宣布解除全美航班地面停飞令，近 1.5 万架次航班延误或取消",
+  "b": "美交通部长：停飞源于系统老化",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.853"
+ },
+ {
+  "id": "p090",
+  "a": "因 FSD 超速收到罚单，博主要求特斯拉承担责任",
+  "b": "他救过特斯拉，然后特斯拉毁了他",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.96"
+ },
+ {
+  "id": "p091",
+  "a": "“中国游”带火这门“新生意”",
+  "b": "华为云CEO周跃峰：人工智能正全面重构行业生态",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.884"
+ },
+ {
+  "id": "p092",
+  "a": "Chovy八年首进决赛放话夺冠",
+  "b": "KC零封MVK,赛点局偷家取胜",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.909"
+ },
+ {
+  "id": "p093",
+  "a": "用户买RTX 5080游戏本到货变5090",
+  "b": "尔英推出基于英特尔酷睿 i7-13798HRE / i5-13598HRE 处理器的 MoDT 主板",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.974"
+ },
+ {
+  "id": "p094",
+  "a": "今天，库克最后一天当CEO，苹果正式换帅",
+  "b": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.964"
+ },
+ {
+  "id": "p095",
+  "a": "特朗普在白宫会见炼油商高管，要求扩大汽柴油产能以压低泵价",
+  "b": "特朗普的超级政治行动委员会砸千万美元介入得州选举",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.9"
+ },
+ {
+  "id": "p096",
+  "a": "OPPO 发布新一代 ProXDR 技术：单帧动态范围高至 17EV、全尺寸 4K HDR 视频",
+  "b": "Liquid AI 开源 d1 系列决策模型：单次判断仅 8 毫秒，支持图像输入",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.871"
+ },
+ {
+  "id": "p097",
+  "a": "郑钦文美网资格赛决胜轮因雨推迟",
+  "b": "“Queen Wen”郑钦文生日快乐",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.96"
+ },
+ {
+  "id": "p098",
+  "a": "《GTA 6》公开 26 分钟实机玩法，这个游戏真值得等 13 年",
+  "b": "突破“双重沙盒”兼容难题，谷歌正测试推进 Flatpak 版 Chrome 浏览器",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.919"
+ },
+ {
+  "id": "p099",
+  "a": "“Queen Wen”郑钦文生日快乐",
+  "b": "郑钦文美网资格赛决胜轮因雨推迟",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.96"
+ },
+ {
+  "id": "p100",
+  "a": "樊振东进4强需击败所有对手",
+  "b": "国乒男单今年6站冠军赛0冠",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.909"
+ },
+ {
+  "id": "p101",
+  "a": "伊朗伊斯兰革命卫队航空航天部队4名成员在美军对伊朗西部的打击中身亡",
+  "b": "伊朗革命卫队发言人批评“炸弹之母”命名，称美国是野蛮文明",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.966"
+ },
+ {
+  "id": "p102",
+  "a": "中国男篮世预赛大胜卡塔尔",
+  "b": "中国女篮为何会输法国队29分",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.88"
+ },
+ {
+  "id": "p103",
+  "a": "日本球迷直言希望王曼昱取胜",
+  "b": "樊振东进4强需击败所有对手",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.761"
+ },
+ {
+  "id": "p104",
+  "a": "海信推出猎影 G5 Pro 显示器：24.5 英寸 2K 320Hz，1999 元",
+  "b": "VGN 蜻蜓 F2 Turbo+ 三模轻量化鼠标首销：搭 Nordic 54LM20 主控，319 元",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.952"
+ },
+ {
+  "id": "p105",
+  "a": "苹果发布会最全爆料：折叠iPhone和新CEO都来了，还有一个One more thing",
+  "b": "苹果首款天价折叠屏，被炒到了9万",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.96"
+ },
+ {
+  "id": "p106",
+  "a": "马斯克拒玩GTA6,袭警太虐心",
+  "b": "马斯克回应关于SpaceX筹建涡轮叶片工厂的报道",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.91"
+ },
+ {
+  "id": "p107",
+  "a": "3 周内增长约 7 倍：Cybercab 发布在即，特斯拉悄悄扩张 Robotaxi 车队规模",
+  "b": "他救过特斯拉，然后特斯拉毁了他",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.957"
+ },
+ {
+  "id": "p108",
+  "a": "伊朗革命卫队发言人批评“炸弹之母”命名，称美国是野蛮文明",
+  "b": "伊朗伊斯兰革命卫队航空航天部队4名成员在美军对伊朗西部的打击中身亡",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.966"
+ },
+ {
+  "id": "p109",
+  "a": "鸿蒙智行享界 G9 顶帐官宣进店，华为智选车产品总监称最初设计就考虑了原生电动顶帐",
+  "b": "网易云音乐 9.5.80 版本上线鸿蒙尝鲜，界面和安卓版有所不同",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.933"
+ },
+ {
+  "id": "p110",
+  "a": "美军称已清除霍尔木兹海峡国际航道水雷",
+  "b": "今日原油：从两个月低位反弹，霍尔木兹海峡及胡塞武装袭击风险提供支撑",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.906"
+ },
+ {
+  "id": "p111",
+  "a": "蚂蚁百灵推出金融增强模型 Ling-3.0-flash-Fin：API 调用限免一个月，下周开源",
+  "b": "阿里千问创作上线 Agent Teams 功能：用户提出创意，Agent 规划任务完成视频制作",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.894"
+ },
+ {
+  "id": "p112",
+  "a": "雷军：小米 18 Fold“中折叠”旗舰手机搭载 Xiaomi MiMo 端侧大模型",
+  "b": "小米澎湃 HyperOS 4 超级小爱交互焕新：动效实时反馈、任务上岛运行",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.962"
+ },
+ {
+  "id": "p113",
+  "a": "“济公”游本昌去世",
+  "b": "周启豪3比1贾哈",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.661"
+ },
+ {
+  "id": "p114",
+  "a": "7月1日暑运以来 机场及火车站捡拾失物逾2.6万件",
+  "b": "两部门印发《物流网建设实施方案》：提高投递作业标准化水平，支持农村客运班车更新为兼容客货功能的车型",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.793"
+ },
+ {
+  "id": "p115",
+  "a": "华为小米荣耀客服回应手机涨价",
+  "b": "华为折叠屏",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.968"
+ },
+ {
+  "id": "p116",
+  "a": "吉利星越 L PLUS 官宣“即将登场”，定位中大型旗舰智混 SUV",
+  "b": "大众与众 08 猎影版车型 9 月 12 日上市：预售价 23 万元，新增双腔空悬 + DCC 等",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.914"
+ },
+ {
+  "id": "p117",
+  "a": "热心送零食,遭日本同事背地嘲讽",
+  "b": "博主：美国对日本经济路线失去耐心",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.893"
+ },
+ {
+  "id": "p118",
+  "a": "胡塞武装称将对沙特纵深打击",
+  "b": "胡塞武装的弹道导弹美国能拦截吗",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.949"
+ },
+ {
+  "id": "p119",
+  "a": "8点1氪丨英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发2.85万亿；Anthropic正式启动IPO路演；阿里拟分拆平头哥独立上市",
+  "b": "黄仁勋承认婚外情 英伟达还能投吗",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.979"
+ },
+ {
+  "id": "p120",
+  "a": "突破“双重沙盒”兼容难题，谷歌正测试推进 Flatpak 版 Chrome 浏览器",
+  "b": "《微软模拟飞行》游戏免费更新意大利 9 城，10 月 13 日启动 5 类空中竞速",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.941"
+ },
+ {
+  "id": "p121",
+  "a": "《微软模拟飞行》游戏免费更新意大利 9 城，10 月 13 日启动 5 类空中竞速",
+  "b": "微软正淡化 Copilot+ PC 品牌，2026 新款 Surface 已弃用",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.952"
+ },
+ {
+  "id": "p122",
+  "a": "印度总理莫迪与伊朗总统讨论西亚局势及双边关系",
+  "b": "伊朗伊斯兰革命卫队航空航天部队4名成员在美军对伊朗西部的打击中身亡",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.96"
+ },
+ {
+  "id": "p123",
+  "a": "习近平将出席亚太经合组织第三十三次领导人非正式会议及相关活动",
+  "b": "“我们的共同期待”中美关系交流会在纽约举行",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.876"
+ },
+ {
+  "id": "p124",
+  "a": "VGN 蜻蜓 F2 Turbo+ 三模轻量化鼠标首销：搭 Nordic 54LM20 主控，319 元",
+  "b": "海信推出猎影 G5 Pro 显示器：24.5 英寸 2K 320Hz，1999 元",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.952"
+ },
+ {
+  "id": "p125",
+  "a": "iPhone Duo",
+  "b": "好消息，DeepSeek营收暴涨10倍，7个月营收4.75亿，API毛利82.9%",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.884"
+ },
+ {
+  "id": "p126",
+  "a": "黄仁勋G20发言：不要对人工智能过度恐惧和监管",
+  "b": "黄仁勋承认婚外情 英伟达还能投吗",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.954"
+ },
+ {
+  "id": "p127",
+  "a": "OpenAI将Astra模型列为“关键”网络安全风险，收紧使用限制",
+  "b": "Gemini 3.8，明日登场",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.938"
+ },
+ {
+  "id": "p128",
+  "a": "三星生物制药拟筹资22亿美元用于PolyPeptide收购交易",
+  "b": "消息称软银拟发超 110 亿美元高收益债，加码 OpenAI 投资",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.929"
+ },
+ {
+  "id": "p129",
+  "a": "广州港：8月预计完成集装箱吞吐量241.4万标准箱 同比增长0.7%",
+  "b": "“沪八条”实施以来市场反馈积极 8月一、二手住房成交面积同比增15%",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.909"
+ },
+ {
+  "id": "p130",
+  "a": "特朗普：加息安抚不了债券市场 美国利率应在1%甚至0.5%",
+  "b": "特朗普的超级政治行动委员会砸千万美元介入得州选举",
+  "prelabel": "相关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "related|sim=0.907"
+ },
+ {
+  "id": "p131",
+  "a": "伊朗伊斯兰革命卫队称袭击油轮和美国资产 以报复美方行动",
+  "b": "90 → 64 天：全球最大网站证书颁发机构 Let's Encrypt 明年 2 月起缩短证书有效期",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.256"
+ },
+ {
+  "id": "p132",
+  "a": "俞敏洪对话方太集团董事长茅忠群",
+  "b": "交银国际：翰森制药目标价上调至46港元 维持“买入”评级",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.291"
+ },
+ {
+  "id": "p133",
+  "a": "中汽协：我国汽车出口连续三个月超100万辆",
+  "b": "阿塞拜疆女童被要求脱头巾",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.199"
+ },
+ {
+  "id": "p134",
+  "a": "李亚鹏首回应“情怀大过能力”",
+  "b": "美银证券：恒基地产下调至“中性”评级 目标价削至31港元",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.282"
+ },
+ {
+  "id": "p135",
+  "a": "莆田洪水倒灌如瀑布居民被困楼上",
+  "b": "我国在太阳爆发研究领域取得新进展，获得磁重联直接观测证据",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.267"
+ },
+ {
+  "id": "p136",
+  "a": "“欧洲之困”手记：从民生账单看法国财政两难",
+  "b": "亚运会今天开赛",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.209"
+ },
+ {
+  "id": "p137",
+  "a": "1岁走失男童被找到时大家都哭了",
+  "b": "伊朗：美国任何进一步侵略都将立即遭到回应",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.289"
+ },
+ {
+  "id": "p138",
+  "a": "美银全球研究将美光科技从其美股首选名单中移除",
+  "b": "百万博主被网红女友背叛，细节太劲爆，自己竟连小三都算不上",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.235"
+ },
+ {
+  "id": "p139",
+  "a": "反差拉满,博主净化精神小妹",
+  "b": "工信部：今年前三季度规上电子信息制造业营收 14.9 万亿元同比增 21%，利润总额翻倍",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.263"
+ },
+ {
+  "id": "p140",
+  "a": "创造历史 赵家驹巨人之旅夺冠",
+  "b": "印度央行副行长认为印度卢比存在升值空间",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.264"
+ },
+ {
+  "id": "p141",
+  "a": "3孩非亲生男子首次摘口罩面对镜头",
+  "b": "Anthropic联合创始人克拉克：AI能力快速进步，或大幅提振美国GDP",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.165"
+ },
+ {
+  "id": "p142",
+  "a": "1981年华老离休前最后一次参加国宴，厨师的这道菜让他备受感动",
+  "b": "《轻工纺织产业发展“十五五”规划》印发",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.228"
+ },
+ {
+  "id": "p143",
+  "a": "兰香如故为什么停更",
+  "b": "苹果新CEO一年拿多少钱",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.270"
+ },
+ {
+  "id": "p144",
+  "a": "菜鸟墨西哥本地快递实现全境覆盖",
+  "b": "英国央行首席经济学家：明年或需进一步加息，伊朗冲突结束可能性极低",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.201"
+ },
+ {
+  "id": "p145",
+  "a": "中国是如何成为石油超级大国的",
+  "b": "江西赣州一女生赴港看演唱会触发低保预警，最新进展：低保已被取消",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.209"
+ },
+ {
+  "id": "p146",
+  "a": "日本央行行长植田和男将于10月6日在全国证券大会上发表演讲",
+  "b": "11.11 送自己都划算：SK-II 神仙水 230ml 京东 1690 → 596 元京东自营发车",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.284"
+ },
+ {
+  "id": "p147",
+  "a": "网传中国大学生黑市报价70万",
+  "b": "西藏吉隆泥石流",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.183"
+ },
+ {
+  "id": "p148",
+  "a": "华为 MateBook Fold S 鸿蒙小折叠电脑官宣 11 月 24 日发布，至高 32GB/1TB 规格",
+  "b": "长春大冬会的“抠门”与“讲究”",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.278"
+ },
+ {
+  "id": "p149",
+  "a": "热点新闻-随州市应急管理局",
+  "b": "寒武纪前高管连续6次败诉 新诉请对公司日常研发及经营不存在影响",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.278"
+ },
+ {
+  "id": "p150",
+  "a": "赛博朋克之旅：VRChat 第三方地图《Uncanny Alley》获 2026 年度艾美奖“杰出新兴媒体节目”",
+  "b": "电气工程 “顶流”专业",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.283"
+ },
+ {
+  "id": "p151",
+  "a": "1.60+1.67 一降再降：法国依视路旗舰“膜致”近视镜 185 元起，线下超千元",
+  "b": "保加利亚在最新船舶遇袭事件后将召见俄罗斯大使",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.252"
+ },
+ {
+  "id": "p152",
+  "a": "沙玥儿 陈鹤文",
+  "b": "2027英雄联盟全球先锋赛落地中国",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.252"
+ },
+ {
+  "id": "p153",
+  "a": "学校调整上学时间家长喜忧参半",
+  "b": "卖20元不合法食品被罚5万元 合理吗",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.291"
+ },
+ {
+  "id": "p154",
+  "a": "iPhone20Pro配置曝光",
+  "b": "各地多措并举护航粮食稳产增收",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.265"
+ },
+ {
+  "id": "p155",
+  "a": "糖尿病人喝白酒到底会不会影响血糖",
+  "b": "西藏吉隆救援最新进展",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.173"
+ },
+ {
+  "id": "p156",
+  "a": "日本一棵白菜卖42元",
+  "b": "特朗普在与卡塔尔会晤后表态：无需再对伊朗发动新打击",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.226"
+ },
+ {
+  "id": "p157",
+  "a": "女子家里跳闸后发现被“寄生”18年",
+  "b": "LPL致敬Faker",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.288"
+ },
+ {
+  "id": "p158",
+  "a": "多只银行股盘中齐创历史新高！南京银行涨近3%领涨",
+  "b": "姐姐把闺蜜介绍给弟弟",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.246"
+ },
+ {
+  "id": "p159",
+  "a": "以后的年轻人，可能真不用学打字了",
+  "b": "山西省商务厅推出双节促消费系列惠民举措",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.259"
+ },
+ {
+  "id": "p160",
+  "a": "困在竞业协议里的“打工人”，被大厂“上了一课”",
+  "b": "超长蛋挞为何火不过俩月",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.296"
+ },
+ {
+  "id": "p161",
+  "a": "宋佳 获奖争议",
+  "b": "“我都103岁了 但是我还想活”",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.208"
+ },
+ {
+  "id": "p162",
+  "a": "美媒称全美航班停飞调查指向软件更新",
+  "b": "蜜雪冰城摘得“里程王”桂冠",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.269"
+ },
+ {
+  "id": "p163",
+  "a": "石药集团发布前三季度业绩 股东应占溢利70.76亿元同比增长101.5%",
+  "b": "游客反映动物园4个月大的小羊怀孕",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.268"
+ },
+ {
+  "id": "p164",
+  "a": "[视频]赵乐际会见哥伦比亚多党干部考察团",
+  "b": "沙特东西输油管道在遭多次袭击后被预防性关闭",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.287"
+ },
+ {
+  "id": "p165",
+  "a": "猫超送货上门：威露士 la 清新洗衣液 44 元 10 斤大促（低过多多补贴价）",
+  "b": "胡塞武装凭什么让沙特头疼",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.145"
+ },
+ {
+  "id": "p166",
+  "a": "大肥鱼AI宣布竞选吧主",
+  "b": "不会穿搭的建议反复观看",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.256"
+ },
+ {
+  "id": "p167",
+  "a": "加息逆风 BTC 冲 8.6 万：西格尔与詹卡洛的供需博弈",
+  "b": "奥委会祝贺中国队男女混接金牌",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.292"
+ },
+ {
+  "id": "p168",
+  "a": "爱旭ABC组件南非市场获773.5MW订单",
+  "b": "让我去吉隆口岸干什么都行",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.228"
+ },
+ {
+  "id": "p169",
+  "a": "消息称微软 XBOX 与小岛秀夫《PHYSINT》的合作预算远低于 4 亿美元",
+  "b": "月饼这么吃更健康",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.285"
+ },
+ {
+  "id": "p170",
+  "a": "越南放开公安经商权限有何影响",
+  "b": "世卫敦促俄方披露鼠疫事件更多信息",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.293"
+ },
+ {
+  "id": "p171",
+  "a": "印尼股市受 MSCI 降级预警重创，创 28 年来最大跌幅",
+  "b": "要闻速览(9月11日)_活动_渭南市_韩城市",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.236"
+ },
+ {
+  "id": "p172",
+  "a": "山寨版葫芦出现 葫芦爷爷最新发声",
+  "b": "思科瑞摘帽复牌：索赔登记通道仍然打开",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.290"
+ },
+ {
+  "id": "p173",
+  "a": "俄罗斯限制哈萨克斯坦煤炭经俄运往波罗的海港口",
+  "b": "微信朋友圈内测私密发表",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.254"
+ },
+ {
+  "id": "p174",
+  "a": "沪深两市今日成交额合计1.48万亿元",
+  "b": "栾念向尚之桃求婚",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.227"
+ },
+ {
+  "id": "p175",
+  "a": "转会期要炸JDG天价抢康康",
+  "b": "马斯克晒 SpaceX 星舰“筷子夹”飞船近距离照片：“我拥抱了它”",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.267"
+ },
+ {
+  "id": "p176",
+  "a": "星宇股份处罚疑云：61岁被免职人力资源总监未有对应职务信息",
+  "b": "韩国央行称9月份通胀将有所放缓，但核心压力仍可能持续",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.258"
+ },
+ {
+  "id": "p177",
+  "a": "女孩5岁白血病终末期如今已45岁",
+  "b": "麦当劳在中国怎么就干不过肯德基？",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.166"
+ },
+ {
+  "id": "p178",
+  "a": "8B逆袭32B，开源首个长程交互SQL Agent框架，面向真实数据库",
+  "b": "乌议员：女性大规模服役只是时间问题",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.291"
+ },
+ {
+  "id": "p179",
+  "a": "小红书，投了梁文锋",
+  "b": "为什么大家不喝猪奶",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.256"
+ },
+ {
+  "id": "p180",
+  "a": "酷态科首款 2026 新国标移动电源获 3C 认证：2C+1A 设计，至高支持 67W 输出",
+  "b": "郑钦文创女子大满贯翻盘纪录",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.220"
+ },
+ {
+  "id": "p181",
+  "a": "CoreWeave创始人套现33亿美元：AI算力泡沫的第一道裂缝",
+  "b": "深刻领悟持之以恒推进全面",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.291"
+ },
+ {
+  "id": "p182",
+  "a": "媒体：中国女篮实力优于波多黎各",
+  "b": "羽绒服翻新火了",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.284"
+ },
+ {
+  "id": "p183",
+  "a": "百盛集团就位于绵阳市紫金广场物业订立租赁协议",
+  "b": "孩子觉得打包丢人被老师扣分冤不冤",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.225"
+ },
+ {
+  "id": "p184",
+  "a": "拜雅发布 AVENTHO Y 头戴式无线耳机：四色可选，续航可达 90hr",
+  "b": "“摸金”攻占中小学校园",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.233"
+ },
+ {
+  "id": "p185",
+  "a": "家长投诉老师婚姻状况",
+  "b": "配送50骑手赚2.7,平台抽太狠",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.271"
+ },
+ {
+  "id": "p186",
+  "a": "视频|特朗普：乌克兰该换新总统了！美国六次要求泽连斯基停止袭击俄罗斯炼油厂 均被泽连斯基无视",
+  "b": "女子免费领养小猫背上9000余元债务",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.174"
+ },
+ {
+  "id": "p187",
+  "a": "黄仁勋发布史上最强 Surface，专为「无限智能」设计",
+  "b": "这游戏俺不中嘞",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.299"
+ },
+ {
+  "id": "p188",
+  "a": "《给阿嬷的情书》王晓慧疑要进圈",
+  "b": "创想三维午后涨逾5% 公司新品K3 3D打印机正式在京东开启预售",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.173"
+ },
+ {
+  "id": "p189",
+  "a": "估值破千亿，可灵明年IPO，BAT合力让视频生成商业化跑通了？",
+  "b": "牦牛进屠宰间狂追人致员工骨折",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.290"
+ },
+ {
+  "id": "p190",
+  "a": "特朗普邀请终极格斗冠军赛负责人Dana White担任新闻秘书",
+  "b": "水均益墓前和刘欢女儿合影送别",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.196"
+ },
+ {
+  "id": "p191",
+  "a": "曹骏第二",
+  "b": "海南五指山现内涝：积水超1米",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.227"
+ },
+ {
+  "id": "p192",
+  "a": "不含真实演员数字复制：国内首部院线 AI 原生动画电影《三星堆：未来往事》定档 10 月 23 日上映",
+  "b": "日本央行官员：日本必须加息",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.296"
+ },
+ {
+  "id": "p193",
+  "a": "300元卖掉你的脸 下一秒成AI短剧主角",
+  "b": "2007年出生的4个人，能撑起巴萨最伟大一代吗？",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.180"
+ },
+ {
+  "id": "p194",
+  "a": "综述｜中国创新成果亮相德国纽伦堡国际发明展",
+  "b": "我是本科生，我刚去读了个技校",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.242"
+ },
+ {
+  "id": "p195",
+  "a": "苹果首次低头：iPhone 18 Pro官方降价，砍单15%",
+  "b": "小岗村老典型续写新答卷",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.272"
+ },
+ {
+  "id": "p196",
+  "a": "KPL年总决赛大话王",
+  "b": "北京天空出现丁达尔光瀑",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.220"
+ },
+ {
+  "id": "p197",
+  "a": "王仁君获飞天奖 早起感谢盛家人",
+  "b": "闫妮像极了上班摸鱼的我",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.278"
+ },
+ {
+  "id": "p198",
+  "a": "豆包被腾讯、阿里拒之门外",
+  "b": "美国能源部长：霍尔木兹海峡石油流量均值接近每日1300万桶",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.221"
+ },
+ {
+  "id": "p199",
+  "a": "渣男文鼻祖斥巨资求娶女友",
+  "b": "刚刚，DeepSeek新模型上线，长文本缓存硬盘占用暴降88%",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.288"
+ },
+ {
+  "id": "p200",
+  "a": "韩网倒戈力挺BLG夺冠",
+  "b": "离谱,日本拉面店一锅汤熬14年",
+  "prelabel": "无关",
+  "label": "",
+  "status": "auto_prelabel",
+  "note": "neg|sim=0.293"
+ }
+]

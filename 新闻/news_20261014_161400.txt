@@ -1,0 +1,39 @@
+新闻抓取报告
+生成时间: 2026-10-14 16:12:59
+============================================================
+
+【百度热搜】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【今日头条热榜】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【百度贴吧热议】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【新浪滚动新闻】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【IT之家新闻】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【36氪热榜】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【IT之家滚动】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【东方财富快讯】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【微博热搜】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【聚合数据新闻头条】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【知乎全网搜索】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+【百度热搜(聚合)】
+[请求失败] URLError: <urlopen error [Errno 11001] getaddrinfo failed>

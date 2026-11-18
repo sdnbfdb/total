@@ -1,0 +1,51 @@
+# ==================== 敏感信息与凭据 ====================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+cookies*.json
+state/
+xianyu_state.json
+*.sqlite3
+*.db
+
+# ==================== 依赖与缓存 ====================
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ==================== 运行产物 ====================
+logs/
+tmp/
+.runtime-tmp/
+pip-build-tracker-*/
+pip-ephem-wheel-cache-*/
+pip-install-*/
+*.log
+*.tmp
+
+# ==================== 生成的大体积分析产物（需要时手动取消注释） ====================
+新闻/reports/
+新闻/_docs_backup_*/
+新闻/.trae-html-share-packages/
+新闻/data/*.npz
+新闻/data/_*/
+新闻/data/events.json
+新闻/data/knowledge_graph.*
+新闻/data/vectors.*
+
+# ==================== 编辑器 / 系统文件 ====================
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

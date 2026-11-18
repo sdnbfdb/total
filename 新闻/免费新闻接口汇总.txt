@@ -1,0 +1,155 @@
+============================================================
+免费新闻接口汇总(可直接使用版)
+整理时间:2025-06  |  用途:个人学习研究
+============================================================
+说明:
+  1. 以下均为"打开就能用"的 URL,无需注册、无需 APIKey。
+  2. 非官方接口(标注"非官方"的)可能随时失效或被风控,建议
+     加缓存、控制请求频率(建议每秒不超过 1 次)。
+  3. 需要注册拿 Key 的平台(天行数据/聚合数据等)见文末附录,
+     不属"直接可用"范围。
+
+------------------------------------------------------------
+一、聚合接口(一个 URL 拿多个源,最省事)
+------------------------------------------------------------
+
+【1】今日热榜 API(DailyHotApi 公共实例)
+    使用方式:https://api-hot.imsyy.top/接口名
+    例:https://api-hot.imsyy.top/weibo
+    加 ?rss=true 可输出 RSS 格式。
+
+    微博热搜    https://api-hot.imsyy.top/weibo
+    知乎热榜    https://api-hot.imsyy.top/zhihu
+    百度热搜    https://api-hot.imsyy.top/baidu
+    抖音热榜    https://api-hot.imsyy.top/douyin
+    快手热榜    https://api-hot.imsyy.top/kuaishou
+    百度贴吧热议 https://api-hot.imsyy.top/tieba
+    今日头条热榜 https://api-hot.imsyy.top/toutiao
+    澎湃热榜    https://api-hot.imsyy.top/thepaper
+    36氪热榜    https://api-hot.imsyy.top/36kr
+    IT之家热榜  https://api-hot.imsyy.top/ithome
+    果壳热门    https://api-hot.imsyy.top/guokr
+    虎嗅24小时  https://api-hot.imsyy.top/huxiu
+    新浪热榜    https://api-hot.imsyy.top/sina
+    新浪新闻热榜 https://api-hot.imsyy.top/sina-news
+
+    自部署(推荐,公共实例不稳定):
+      docker 镜像: imsyy/dailyhot-api
+      源码: https://github.com/imsyy/DailyHotApi
+
+【2】RSSHub(万物皆可 RSS 公共实例)
+    使用方式:https://rsshub.app/路由
+    输出为 RSS/Atom 格式,可直接订阅。
+
+    微博热搜      https://rsshub.app/weibo/search/hot
+    知乎热榜      https://rsshub.app/zhihu/hot
+    百度热搜      https://rsshub.app/baidu/top
+    百度贴吧(吧内热帖) https://rsshub.app/baidu/tieba/forum/吧名
+                 例:https://rsshub.app/baidu/tieba/forum/iphone
+    澎湃热榜      https://rsshub.app/thepaper/featured
+    36氪热榜     https://rsshub.app/36kr/hot-list
+    IT之家热榜    https://rsshub.app/ithome/ranking
+    虎嗅(频道)    https://rsshub.app/huxiu/channel/频道ID
+    果壳(科学人)  https://rsshub.app/guokr/scientific
+    人民日报电子版 https://rsshub.app/people/paper/rmrb
+    人民网新闻    https://rsshub.app/people
+    央视新闻      https://rsshub.app/cctv/category/分类
+    新闻联播      https://rsshub.app/cctv/xwlb
+    中华网新闻    https://rsshub.app/china/news
+    中华网财经    https://rsshub.app/china/finance
+    新浪滚动新闻  https://rsshub.app/sina/rollnews
+    BBC 中文      https://rsshub.app/bbc/topic-zhongwen
+    路透社(国际)  https://rsshub.app/reuters/world/us
+
+    自部署: https://github.com/DIYgod/RSSHub
+
+------------------------------------------------------------
+二、各来源直接接口(非官方,需带浏览器 UA 更稳)
+------------------------------------------------------------
+
+【微博热搜】
+  https://weibo.com/ajax/side/hotSearch
+  返回 JSON(部分情况需登录 Cookie,失效时用聚合接口)
+
+【知乎热榜】
+  https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total?limit=50&desktop=true
+  返回 JSON
+
+【百度热搜】
+  https://top.baidu.com/api/board?platform=wise&tab=realtime
+  返回 JSON
+
+【今日头条热榜】
+  https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc
+  返回 JSON
+
+【百度贴吧热议话题】
+  https://tieba.baidu.com/hottopic/browse/topicList
+  返回 JSON
+
+【新浪滚动新闻】
+  https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&num=50&page=1
+  返回 JSON
+
+【IT之家新闻】
+  https://api.ithome.com/json/newslist/news
+  返回 JSON(热榜请用上方聚合接口)
+
+------------------------------------------------------------
+三、官方 RSS(最稳定,可长期使用)
+------------------------------------------------------------
+
+【BBC 英国广播公司】
+  头条    https://feeds.bbci.co.uk/news/rss.xml
+  国际    https://feeds.bbci.co.uk/news/world/rss.xml
+  科技    https://feeds.bbci.co.uk/news/technology/rss.xml
+  商业    https://feeds.bbci.co.uk/news/business/rss.xml
+  中文(简) https://feeds.bbci.co.uk/news/zhongwen/simp/rss.xml
+  中文(繁) https://feeds.bbci.co.uk/news/zhongwen/trad/rss.xml
+
+【华盛顿邮报(即清单中的 POST,按此理解)】
+  国际    https://feeds.washingtonpost.com/rss/world
+  美国    https://feeds.washingtonpost.com/rss/national
+  政治    https://feeds.washingtonpost.com/rss/politics
+  商业    https://feeds.washingtonpost.com/rss/business
+  科技    https://feeds.washingtonpost.com/rss/technology
+
+------------------------------------------------------------
+四、无官方接口的国际通讯社(用 Google News RSS 变通)
+------------------------------------------------------------
+
+【路透社 Reuters】(官方 RSS 已于 2020 年停用)
+  https://news.google.com/rss/search?q=site:reuters.com
+
+【法新社 AFP】(无免费官方 RSS)
+  https://news.google.com/rss/search?q=site:afp.com
+  中文结果可加参数:
+  https://news.google.com/rss/search?q=site:afp.com&hl=zh-CN&gl=CN&ceid=CN:zh-Hans
+
+------------------------------------------------------------
+五、暂无直接免费接口的源(只能爬取或近似)
+------------------------------------------------------------
+
+【西瓜视频】无任何免费公开热榜接口。
+  替代:用"抖音热榜"近似(https://api-hot.imsyy.top/douyin)
+  或自行抓取 https://www.ixigua.com 热榜页。
+
+【央视新闻 / 人民日报 / 中华网】无稳定直连 JSON 接口,
+  统一用 RSSHub 公共实例(见第一部分)。
+
+------------------------------------------------------------
+附录:需要注册 APIKey 的平台(不属直接可用,备查)
+------------------------------------------------------------
+  天行数据  https://www.tianapi.com   (热搜类接口最全,每日免费额度)
+  聚合数据  https://www.juhe.cn
+  幂简集成  https://apihub.explinks.com
+  起零数据  https://api.istero.com
+  api.aa1.cn http://api.aa1.cn      (抖音热榜、澎湃热搜)
+  apizero.cn https://apizero.cn
+
+============================================================
+使用建议:
+  1. 优先用"聚合接口"和"官方 RSS",最省事。
+  2. 非官方直连接口请控制频率并做缓存,别用于生产环境。
+  3. 商用请走官方授权(微博开放平台、知乎开放平台等)。
+============================================================

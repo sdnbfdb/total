@@ -1,0 +1,14 @@
+# 新闻聚合与事件脉络分析 · 运行依赖
+# 安装（国内镜像）：
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 语义模型首次运行自动下载，国内可设：HF_ENDPOINT=https://hf-mirror.com
+# 注意：请用服务所用解释器安装（%LOCALAPPDATA%\Programs\Python\Python313\python.exe）
+
+flask>=3.0
+apscheduler>=3.10
+jieba>=0.42
+numpy>=1.26
+fastembed>=0.4
+requests>=2.31
+trafilatura>=1.12
+PySocks>=1.7

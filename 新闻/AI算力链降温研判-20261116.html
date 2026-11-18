@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美股 AI 算力链：这一轮回调会不会给过热降温？</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<style>
+  :root{--ink:#1c2530;--muted:#5f6b7a;--line:#e2e7ee;--bg:#f5f7fa;--card:#fff;--blue:#185fa5;--blue-l:#e6f1fb;--teal:#0f6e56;--teal-l:#e1f5ee;--up:#a32d2d;--down:#1d9e75;--amber:#854f0b;--amber-l:#faeeda}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 24px 64px}
+  h1{font-size:24px;font-weight:600;margin:0 0 8px;letter-spacing:.3px}
+  h2{font-size:17px;font-weight:600;margin:34px 0 14px;padding-left:10px;border-left:3px solid var(--blue)}
+  h3{font-size:15px;font-weight:600;margin:20px 0 10px}
+  .meta{color:var(--muted);font-size:12.5px;margin-bottom:22px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:16px}
+  .tldr{background:var(--blue-l);border:1px solid #b5d4f4}
+  .tldr .lead{font-size:16px;font-weight:600;color:#0c447c;margin:0 0 10px}
+  .tldr ul{margin:8px 0 0;padding-left:20px}
+  .tldr li{margin:5px 0}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:16px 0}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .kpi .v{font-size:21px;font-weight:600;color:var(--blue);line-height:1.3}
+  .kpi .l{font-size:12px;color:var(--muted);margin-top:4px}
+  table{width:100%;border-collapse:collapse;background:var(--card);font-size:13px}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  th{background:#eef2f7;font-weight:600;white-space:nowrap}
+  tr:nth-child(even) td{background:#fbfcfe}
+  .up{color:var(--up);font-weight:600}
+  .down{color:var(--down);font-weight:600}
+  .src{font-size:11.5px;color:var(--muted);margin:7px 0 0}
+  .flow{display:flex;align-items:stretch;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
+  .flow .step{flex:1;min-width:170px;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12px 14px}
+  .flow .step b{display:block;font-size:13.5px;color:var(--blue);margin-bottom:4px}
+  .flow .step span{font-size:12px;color:var(--muted)}
+  .flow .arw{display:flex;align-items:center;color:var(--blue);font-size:19px;font-weight:600}
+  .tag{display:inline-block;padding:1px 8px;border-radius:11px;font-size:11.5px;font-weight:600}
+  .t-real{background:var(--teal-l);color:var(--teal)}
+  .t-part{background:var(--amber-l);color:var(--amber)}
+  .t-no{background:#eef2f7;color:var(--muted)}
+  .btn{border:1px solid var(--blue);background:#fff;color:var(--blue);border-radius:6px;padding:5px 12px;font-size:12.5px;cursor:pointer;margin-bottom:10px}
+  .btn:hover{background:var(--blue-l)}
+  .note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:8px;padding:14px 18px;margin:12px 0;font-size:13px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}.flow .arw{display:none}}
+  .disc{font-size:12.5px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:9px;padding:16px 20px;margin-top:28px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>美股 AI 算力链：这一轮回调会不会给过热降温？</h1>
+<div class="meta">研判时点：2026-11-16 00:10（北京时间，周一凌晨）｜美股处于周末休市，最近一次收盘为 2026-11-13（周五）；11 月为冬令时，常规开盘对应北京时间 22:30。<br>
+标的口径：AI 算力链（芯片 → 数据中心 / 电力 → 云与模型层），即前几轮对话里「美股科技」的主线。数据来源与降级说明见文末。</div>
+
+<div class="card tldr">
+  <p class="lead">结论：会降温，但降的是「融资条件与边际扩张速度」，不是「需求与在建产能」。而且降温是分层的，不是全行业一起冷。</p>
+  <ul>
+    <li><b>对追高的钱：已经实质性降温</b>——散户单日净卖出创 2020 年 3 月以来最大、放弃逢低买入；高收益债窗口基本关闭；一级市场估值被迫下调。这比股价更硬。</li>
+    <li><b>对超大云厂：几乎没降温</b>——2026 年四家资本开支指引合计约 7,300 亿美元、同比约 +78%，至今无一家实质性下修。</li>
+    <li><b>对高杠杆算力租赁与跟风项目：真出清，且可能不可逆</b>——信用利差是实质警报，不是情绪噪声。</li>
+    <li><b>时间尺度要拆开</b>：股价与情绪是几天到几周；资本开支的影响落在 2027 年指引、2028 年规划项目。「短暂」只适用于前者。</li>
+  </ul>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="v">-5.52%</div><div class="l">纳指 11-05 单日；费城半导体 SOX -12.25%<br>腾讯新闻 2026-11-06（需核实原文）</div></div>
+  <div class="kpi"><div class="v">-23.95%</div><div class="l">英伟达近 20 日；YTD -12.47%，PE(TTM) 20.6<br>westock-data 2026-11-13 收盘</div></div>
+  <div class="kpi"><div class="v">≈7,300 亿</div><div class="l">四大云厂 2026 capex 指引（美元），同比约 +78%<br>Q3 2026 财报指引汇总（需核实原文）</div></div>
+  <div class="kpi"><div class="v">45 个</div><div class="l">2026Q2 全美搁置/延期数据中心项目，涉 680 亿美元<br>媒体汇总 2026-11（需核实原文）</div></div>
+</div>
+
+<h2>一、传导链：冲击走的是「信用」而不是「订单」</h2>
+<div class="card">
+  <div class="flow">
+    <div class="step"><b>① 宏观与政策变量</b><span>高利率（12 月加息定价约 70%）+ 数据中心许可/并网审查趋严；美联储金融稳定报告点名 AI 估值风险</span></div>
+    <div class="arw">→</div>
+    <div class="step"><b>② 融资条件收紧</b><span>CDS 走阔、高收益债发行冻结、循环融资与残值担保被重新审视；长久期资产折现率抬升</span></div>
+    <div class="arw">→</div>
+    <div class="step"><b>③ 项目与合同层面</b><span>工期后移、租约重议、部分项目搁置；但已下单的 GPU / 在建产能不受影响</span></div>
+    <div class="arw">→</div>
+    <div class="step"><b>④ 分层出清</b><span>云厂与龙头＝估值收敛；高杠杆 neocloud 与跟风项目＝真实收缩</span></div>
+  </div>
+  <p class="src">传导依据：macro-transmission 方法论（宏观变量 → 中间变量 → 行业 → 分层结果）。关键中间变量是<b>融资成本</b>，不是终端算力需求；这是判断「会不会误伤行业」的核心。</p>
+</div>
+
+<h2>二、项目内新闻链条 ↔ 外部市场数据（交叉验证）</h2>
+<div class="card">
+<table>
+<thead><tr><th>本地事件库线索（data/events.json，生成于 2026-11-15 23:51）</th><th>外部对应事实</th><th>是否对得上</th></tr></thead>
+<tbody>
+<tr><td>「英伟达及黄仁勋遭股东集体诉讼，市值两天蒸发 2.85 万亿」11-11 首现，29 次 / 6 源；11-14 突发由 2 → 21 条/日</td><td>CEO 治理风波持续发酵，过去 24 个交易日累计市值蒸发约 1.46 万亿美元；11-08 致歉、11-13 前后由 CFO 出任临时 CEO（媒体 11-10 ~ 11-13，需核实原文）</td><td>一致，中文报道滞后 1–2 天</td></tr>
+<tr><td>「美联储重磅报告：AI 热正推高资产估值」11-14 首现，仅 2 次 / 2 源</td><td>美联储最新金融稳定报告点名 AI 对资产估值与金融稳定的潜在威胁；高盛 2027 展望提示 AI 资本开支增量 2027 年初见顶（腾讯证券 2026-11-15，需核实原文）</td><td>一致，且是「刚起头的线索」</td></tr>
+<tr><td>故事链：巴克莱转鹰 → 加息概率 73% → 美债收益率平稳 → AI 估值警告</td><td>11-06 强就业数据后市场对 12 月加息 25bp 定价约 70%；高利率压制长久期 AI 资产（媒体 11-15，需核实原文）</td><td>利率线闭环</td></tr>
+<tr><td>「英伟达暴涨近 9%，市值 +4,420 亿美元」08-28 首现，28 次 / 7 源，阶段「缓慢发酵」</td><td>NVDA 近 20 日 -23.95%、近 60 日 -24.82%（westock-data 2026-11-13 收盘）</td><td>先涨后跌，构成完整反转</td></tr>
+</tbody>
+</table>
+<p class="src">本地事件库是新闻热度与语义脉络，<b>不含价格数据</b>，不与行情数字混用；此处仅作事件级对照。</p>
+</div>
+
+<h2>三、K 型分化：谁真被降温了</h2>
+<div class="card">
+<table>
+<thead><tr><th>层级</th><th>本轮证据</th><th>是否降温</th><th>性质</th></tr></thead>
+<tbody>
+<tr><td>超大云厂 + 龙头芯片<br><span class="src">MSFT / AMZN / GOOGL / META / NVDA / AVGO</span></td><td>2026 capex 指引合计约 7,300 亿美元（+78%）；微软仅因第三方容量交付延期由约 1,750 亿微调至约 1,700 亿；选举次日 MSFT、AMZN 各涨逾 6%；NVDA PE(TTM) 20.6、GOOGL 15.4</td><td><span class="tag t-no">基本没有</span></td><td>估值收敛，订单与云增速未系统性恶化</td></tr>
+<tr><td>高杠杆算力租赁 / neocloud<br><span class="src">CRWV、NBIS、IREN、APLD 等</span></td><td>自高点回撤 60–70%；CoreWeave 2032 年到期、票息 9.625% 债券收益率升破 16%，5 年 CDS 一度逾 1,100bp；neocloud 高收益债新发行市场基本关闭</td><td><span class="tag t-real">真实出清</span></td><td>信用约束，非需求崩塌；可能不可逆</td></tr>
+<tr><td>二线 / 跟风项目</td><td>2026Q2 已有 45 个数据中心项目搁置或延期（680 亿美元）；微软退出英国 Nscale 项目、西弗吉尼亚 1.35GW 意向书，重审超 800 亿美元租赁合同；亚马逊取消 4 个弗吉尼亚数据中心</td><td><span class="tag t-real">真实收缩</span></td><td>项目级，落在 2027–2028 产能</td></tr>
+<tr><td>模型层一级市场</td><td>OpenAI 以 1.25 万亿美元估值仅募约 110 亿美元（原目标 1.4 万亿估值 / 300 亿美元以上）；Anthropic IPO 定价成为模型层首次公开标价</td><td><span class="tag t-real">已降温</span></td><td>「无脑给估值」的口子先关上</td></tr>
+<tr><td>追高资金 / 散户</td><td>11-05 散户净卖出 3.38 亿美元，为 2020 年 3 月以来最大单日流出，且未出现逢低买入（Vanda Research，经媒体引用，需核实原文）</td><td><span class="tag t-real">已降温</span></td><td>拥挤交易出清，比股价更硬</td></tr>
+</tbody>
+</table>
+<p class="src">来源：CNBC 2026-11-05、21 经济网 2026-11-09、腾讯新闻 2026-11-06、读懂 AI 时代 2026-11-06、申万研报 2026-10-26、westock-data 2026-11-13 收盘；媒体与研报均为非一手来源，需核实原文。</p>
+</div>
+
+<h2>四、资本开支：为什么「今年不会砍」</h2>
+<div class="card">
+  <button class="btn" id="capexBtn" type="button">切换为表</button>
+  <div id="capexChart" style="width:100%;height:330px;"></div>
+  <div id="capexTable" style="display:none">
+    <table>
+      <thead><tr><th>公司</th><th>2025 实际（亿美元）</th><th>2026 指引（亿美元）</th><th>同比</th></tr></thead>
+      <tbody>
+        <tr><td>亚马逊 AMZN.US</td><td>≈1,280</td><td>≈2,200</td><td class="up">+72%</td></tr>
+        <tr><td>微软 MSFT.US</td><td>≈1,180</td><td>≈1,700（含融资租赁）</td><td class="up">+44%</td></tr>
+        <tr><td>Alphabet GOOGL.US</td><td>≈910</td><td>1,950–2,050（图中取 2,000）</td><td class="up">+120%</td></tr>
+        <tr><td>Meta META.US</td><td>≈720</td><td>1,350–1,450（图中取 1,400）</td><td class="up">+94%</td></tr>
+        <tr><td><b>合计</b></td><td><b>≈4,100</b></td><td><b>≈7,300</b></td><td class="up"><b>≈+78%</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">来源：四家公司 Q3 2026 财报与电话会（2026-10-21 ~ 10-29）汇总、第三方 capex tracker（2026-11，需核实原文）；区间指引在图中取中值。口径为自然年资本开支，含融资租赁，非仅数据中心建筑支出。</p>
+  <div class="note"><b>关键机制</b>：长周期设备（晶圆、先进封装、HBM）提前 9–18 个月下单，2027 年 GPU 出货大部分已锁定。因此回调<b>不影响 2026 预算</b>，真正暴露的是 2027 年指引的边缘与 2028 年规划项目（野村观点，经 CNBC 2026-11-05 引用，需核实原文）。市场定价看的是<b>增速的二阶导</b>：即便绝对额还在涨，增速从 +94% → +40% → +10% 就足以让按高增长扩产、靠债务支撑的主体先出事。</div>
+</div>
+
+<h2>五、反向声音：为什么也可能「没怎么降温」</h2>
+<div class="card">
+  <div class="grid2">
+    <div>
+      <h3>需求端并未走弱</h3>
+      <p style="font-size:13px">CoreWeave Q3 收入 +168%、积压订单 1,325 亿美元；AWS 积压 4,960–5,780 亿美元；Azure 增速 43–48%；Google Cloud 单季首次破千亿；Anthropic 年化运行率约 810 亿美元。大厂合计积压约 1.7 万亿美元，对应约 6,000 亿资本开支。<span class="src">媒体 / 研报引用，需核实原文</span></p>
+    </div>
+    <div>
+      <h3>估值已回到不贵的位置</h3>
+      <p style="font-size:13px">标普科技板块远期 PE 约 17 倍，已低于大盘 18 倍，为 2017 年以来首次（Truist，经媒体引用）；NVDA 20.6 倍、GOOGL 15.4 倍、MSFT 27.4 倍（westock-data 2026-11-13 收盘）。便宜本身会吸引资金回补，情绪降温可能只持续数周。</p>
+    </div>
+    <div>
+      <h3>大厂有现金，冲击被转嫁</h3>
+      <p style="font-size:13px">选举次日微软、亚马逊各涨逾 6%，而数据中心建设/电力设备商跌最多 24%（CNBC 2026-11-05）。这说明市场不是全面撤退，而是从「高杠杆讲故事」换到「有现金流的巨头」。给高杠杆环节降温 ≠ 给 AI 降温。</p>
+    </div>
+    <div>
+      <h3>估值会消失，产能不会</h3>
+      <p style="font-size:13px">互联网泡沫破裂没有阻止互联网重塑商业，铺下的光纤后来被用上。高估值若维持足够久，会刺激算力、电力、数据中心等实体资本沉淀；即便估值回落，已建成的基础设施仍留在经济里。<span class="src">类比观点，媒体 2026-11，需核实原文</span></p>
+    </div>
+  </div>
+</div>
+
+<h2>六、条件化判断与观察清单</h2>
+<div class="card">
+<table>
+<thead><tr><th>若出现</th><th>则判断</th><th>置信度</th></tr></thead>
+<tbody>
+<tr><td>11-17 英伟达 FY2027Q3 财报 Q4 毛利率守住 71–72%、2027 订单能见度清晰，且 AI 债券发行窗口重开</td><td>降温定性为「数周的情绪事件」，投机资金大概率回补，行情从单边上行转为双向震荡而非趋势反转</td><td>中等偏高</td></tr>
+<tr><td>四大云厂 2027 capex 指引增速明显下修，或 NVDA 5 年期 CDS 突破 200bp、头部云厂自由现金流继续恶化</td><td>转为结构性出清，至少延续到 2027 年；高杠杆算力租赁的收缩不可逆，「无脑冲」的资金结构被改写</td><td>中等</td></tr>
+<tr><td>新规仅影响 2028 年规划产能，2027 年产能多已在建</td><td>对行业短期实际产出影响有限，冲击主要体现在估值与融资，而非订单与交付</td><td>较高</td></tr>
+</tbody>
+</table>
+<h3>四个可验证指标</h3>
+<ol style="font-size:13px;padding-left:20px">
+  <li>英伟达 FY2027Q3 财报：美东 2026-11-17 盘后（北京时间 11-18 约 05:30，冬令时），看 Q4 毛利率指引与 2027 订单能见度；市场预期营收约 1,088–1,092 亿美元（媒体前瞻，需核实原文）。</li>
+  <li>四大云厂 2027 资本开支指引是否出现增速拐点（二阶导核心变量）。</li>
+  <li>英伟达 5 年期 CDS 200bp 预警线、CoreWeave CDS、头部云厂自由现金流能否修复。</li>
+  <li>Anthropic IPO 定价、AI 相关债券发行窗口、数据中心许可规则的具体落地。</li>
+</ol>
+</div>
+
+<h2>七、数据来源与口径</h2>
+<div class="card" style="font-size:12.5px;color:var(--muted)">
+  <p style="margin:0 0 8px"><b>检索路由</b>：当前会话未连接金融类 MCP（仅企业微信连接器且处于未启用状态），按固定路由降级至 <code>domain_search</code> 多源检索，取得行情快照、媒体与研报摘要；未进一步降级至 WebSearch。</p>
+  <p style="margin:0 0 8px"><b>数据分级</b>：行情数字来自 westock-data 快照（2026-11-13 收盘，第三方行情源）；媒体、券商研报、第三方 tracker 均为非一手来源，已逐处标注「需核实原文」，不与公司公告/年报同等处理。本地事件库为项目自有新闻快照（观测期 2026-08-28 ~ 11-15），只用于事件级对照。</p>
+  <p style="margin:0 0 8px"><b>时效</b>：北京时间 2026-11-16 00:10，美股周末休市，最近收盘 2026-11-13；文中「近 20 日 / YTD / 单日」均以该收盘为基准。区间型 capex 指引在图中取中值，表格保留原始区间。</p>
+  <p style="margin:0"><b>颜色</b>：按国内习惯标注，涨红跌绿（仅用于行情表 / capex 同比）。</p>
+</div>
+
+<div class="disc"><b>免责声明</b>：以上内容基于公开数据和量化分析，仅供参考，不构成投资建议。市场有风险，投资需谨慎。任何投资决策应结合个人风险承受能力、资金状况和投资目标独立判断，必要时咨询持牌专业机构。过往表现不预示未来收益。</div>
+
+</div>
+<script>
+(function(){
+  var c = document.getElementById('capexChart');
+  var t = document.getElementById('capexTable');
+  var btn = document.getElementById('capexBtn');
+  if (typeof echarts === 'undefined') {
+    c.style.display = 'none';
+    t.style.display = 'block';
+    btn.style.display = 'none';
+    return;
+  }
+  var chart = echarts.init(c);
+  chart.setOption({
+    tooltip: { trigger: 'axis' },
+    legend: { data: ['2025 实际', '2026 指引'] },
+    grid: { left: 60, right: 20, top: 40, bottom: 40 },
+    xAxis: { type: 'category', data: ['亚马逊', '微软', 'Alphabet', 'Meta'] },
+    yAxis: { type: 'value', name: '亿美元' },
+    series: [
+      { name: '2025 实际', type: 'bar', data: [1280, 1180, 910, 720], itemStyle: { color: '#9FC0E0' } },
+      { name: '2026 指引', type: 'bar', data: [2200, 1700, 2000, 1400], itemStyle: { color: '#185FA5' } }
+    ]
+  });
+  window.addEventListener('resize', function(){ chart.resize(); });
+  btn.addEventListener('click', function(){
+    var showChart = c.style.display !== 'none';
+    c.style.display = showChart ? 'none' : 'block';
+    t.style.display = showChart ? 'block' : 'none';
+    btn.textContent = showChart ? '切换为图' : '切换为表';
+    if (!showChart) { chart.resize(); }
+  });
+})();
+</script>
+</body>
+</html>

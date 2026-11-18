@@ -1,0 +1,48 @@
+[百度热搜]  GET
+  https://top.baidu.com/api/board?platform=wise&tab=realtime
+  备注: 无需密钥
+
+[今日头条热榜]  GET
+  https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc
+  备注: 无需密钥
+
+[百度贴吧热议]  GET
+  https://tieba.baidu.com/hottopic/browse/topicList
+  备注: 无需密钥
+
+[新浪滚动新闻]  GET
+  https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=2516&num=50&page=1
+  备注: 无需密钥
+
+[IT之家新闻]  GET
+  https://api.ithome.com/json/newslist/news
+  备注: 无需密钥
+
+[36氪热榜（聚合）]  GET
+  https://v2.xxapi.cn/api/hot36kr
+  备注: 返回 data[]，字段 itemId/publishTime/templateMaterial{authorName,widgetTitle,widgetImage,statPraise,statRead}
+
+[IT之家滚动（聚合）]  GET
+  http://api.xcvts.cn/api/hotlist/ithome
+  备注: 返回 data[]，字段 id/category/title/link/time，共 50 条
+
+[东方财富快讯（聚合）]  GET
+  http://api.xcvts.cn/api/hotlist/eastmoney
+  备注: 返回 data[]，字段 id/time/title/content/url/mobileUrl，共 50 条
+
+[微博热搜（聚合）]  GET
+  https://apiserver.luoying.work/api/weibo-hot
+  备注: 返回 data.list[]，字段 rank/title/heat/label/url；匿名限流约 1 次/分钟
+
+[百度热搜（聚合）]  GET
+  https://apiserver.luoying.work/api/baidu-hot
+  备注: 匿名限流约 1 次/分钟（浮动），建议控制请求频率
+
+[聚合数据·新闻头条]  GET
+  https://v.juhe.cn/toutiao/index?key=9b5252eeebb2cbc21aaaacf028180dff&type=top
+  备注: type 可选 guonei/guoji/keji/tiyu/yule 等，默认 top；key 来自 .env
+
+[知乎·全网搜索]  GET
+  https://developer.zhihu.com/api/v1/content/global_search?Query=关键词&Count=10
+  headers: {'Authorization': 'Bearer 7ebb22a3a440d22bf10e7b9d8a3a67140ebff145', 'X-Request-Timestamp': '<秒级时间戳>', 'Content-Type': 'application/json'}
+  备注: secret 放在 Authorization 头，不是 URL；时间戳需传当前秒级值
